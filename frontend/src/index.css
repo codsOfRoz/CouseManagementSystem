@@ -21,11 +21,11 @@ body {
   --color-bg: #1f1f38;
 
   --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+  --color-primary: #2c68c9da;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-light: rgba(255, 255, 255, 0.6);
 }
-.css-1bfjxpj-MuiDrawer-docked .MuiDrawer-paper {
+/* .css-1bfjxpj-MuiDrawer-docked .MuiDrawer-paper {
   background-color: #19118b !important;
   color: wheat !important;
 }
@@ -36,7 +36,7 @@ body {
 }
 .css-u74ffk-MuiDrawer-docked .MuiDrawer-paper {
   background-color: #19118b !important;
-}
+} */
 
 
 thead {

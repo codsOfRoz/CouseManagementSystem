@@ -16,7 +16,7 @@ const SideBar = () => {
     const location = useLocation();
     return (
         <>
-            <React.Fragment >
+            <React.Fragment>
                 <ListItemButton component={Link} to="/">
                     <ListItemIcon>
                         <HomeIcon color={location.pathname === ("/" || "/Admin/dashboard") ? 'primary' : 'inherit'} />
@@ -60,9 +60,9 @@ const SideBar = () => {
                     <ListItemText primary="Complains" />
                 </ListItemButton>
             </React.Fragment>
-            <Divider sx={{ my: 1 }} />
-            <React.Fragment>
-                <ListSubheader component="div" inset>
+            <Divider sx={{ my: 1 }}/>
+            <React.Fragment >
+                <ListSubheader component="div" inset sx={{ backgroundColor: '#2c68c9da', color: 'wheat'}}>
                     User
                 </ListSubheader>
                 <ListItemButton component={Link} to="/Admin/profile">

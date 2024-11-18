@@ -78,17 +78,19 @@ const AdminDashboard = () => {
                         <AccountMenu />
                     </Toolbar>
                 </AppBar>
-                <Drawer variant="permanent" open={open} sx={open ? styles.drawerStyled : styles.hideDrawer}>
+                <Box component="main" sx={styles.navBarStyled}>
+                <Drawer variant="permanent" open={open} sx={open ? styles.drawerStyled : styles.hideDrawer} >
                     <Toolbar sx={styles.toolBarStyled}>
                         <IconButton onClick={toggleDrawer}>
                             <ChevronLeftIcon />
                         </IconButton>
                     </Toolbar>
                     <Divider />
-                    <List component="nav" >
+                    <List component="nav" sx={styles.navBarStyled}>
                         <SideBar />
                     </List>
                 </Drawer>
+                </Box>
                 <Box component="main" sx={styles.boxStyled}>
                     <Toolbar />
                     <Routes>
@@ -158,13 +160,17 @@ const styles = {
         justifyContent: 'flex-end',
         px: [1],
         
-        // backgroundColor: '#19118b',
-        // color: 'wheat' ,
+        backgroundColor: '#19118b',
+        color: 'wheat' ,
     },
     drawerStyled: {
         display: "flex",
         
        
+    },
+    navBarStyled:{
+         backgroundColor: '#19118b',
+        color: 'wheat' ,
     },
     hideDrawer: {
        

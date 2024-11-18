@@ -61,7 +61,7 @@ const AdminHomePage = () => {
                     </Grid>
                     <Grid item xs={12} md={3} lg={3} >
                         <StyledPaper sx={{background:'#a0f8bc', borderRadius:'7px'}}>
-                            {/* <img src={Fees} alt="Fees" /> */}
+                        
                             <Title>
                                 Fees Collection           
                             </Title>
