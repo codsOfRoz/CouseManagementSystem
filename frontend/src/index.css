@@ -26,8 +26,8 @@ body {
   --color-light: rgba(255, 255, 255, 0.6);
 }
 .css-1bfjxpj-MuiDrawer-docked .MuiDrawer-paper {
-  background-color: #19118b;
-  color: wheat;
+  background-color: #19118b !important;
+  color: wheat !important;
 }
 
 .css-mkzahr-MuiListSubheader-root {
@@ -35,7 +35,7 @@ body {
   color: wheat !important;
 }
 .css-u74ffk-MuiDrawer-docked .MuiDrawer-paper {
-  background-color: #19118b;
+  background-color: #19118b !important;
 }
 
 
