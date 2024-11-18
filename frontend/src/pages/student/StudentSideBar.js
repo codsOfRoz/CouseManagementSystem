@@ -41,7 +41,7 @@ const StudentSideBar = () => {
             </React.Fragment>
             <Divider sx={{ my: 1 }} />
             <React.Fragment>
-                <ListSubheader component="div" inset>
+                <ListSubheader component="div" inset sx={{ backgroundColor: '#2c68c9da', color: 'wheat' }}>
                     User
                 </ListSubheader>
                 <ListItemButton component={Link} to="/Student/profile">

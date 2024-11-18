@@ -60,6 +60,7 @@ const TeacherDashboard = () => {
                         <AccountMenu />
                     </Toolbar>
                 </AppBar>
+                <Box component="main" sx={styles.navBarStyled}>
                 <Drawer variant="permanent" open={open} sx={open ? styles.drawerStyled : styles.hideDrawer}>
                     <Toolbar sx={styles.toolBarStyled}>
                         <IconButton onClick={toggleDrawer}>
@@ -67,10 +68,11 @@ const TeacherDashboard = () => {
                         </IconButton>
                     </Toolbar>
                     <Divider />
-                    <List component="nav">
+                    <List component="nav" sx={styles.navBarStyled}>
                         <TeacherSideBar />
                     </List>
                 </Drawer>
+                </Box>
                 <Box component="main" sx={styles.boxStyled}>
                     <Toolbar />
                     <Routes>
@@ -109,7 +111,13 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'flex-end',
         px: [1],
+        backgroundColor: '#19118b',
+        color: 'wheat' ,
     },
+    navBarStyled:{
+        backgroundColor: '#19118b',
+       color: 'wheat' ,
+   },
     drawerStyled: {
         display: "flex"
     },

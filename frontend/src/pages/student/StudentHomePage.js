@@ -7,8 +7,6 @@ import { getUserDetails } from '../../redux/userRelated/userHandle';
 import styled from 'styled-components';
 import SeeNotice from '../../components/SeeNotice';
 import CountUp from 'react-countup';
-// import Subject from "../../assets/subjects.svg";
-// import Assignment from "../../assets/assignment.svg";
 import { getSubjectList } from '../../redux/sclassRelated/sclassHandle';
 
 
@@ -48,7 +46,7 @@ const StudentHomePage = () => {
                 <Grid container spacing={3}>
                     <Grid item xs={12} md={3} lg={3}>
                         <StyledPaper>
-                            {/* <img src={Subject} alt="Subjects" /> */}
+                       
                             <Title>
                                 Total Subjects
                             </Title>
@@ -57,7 +55,7 @@ const StudentHomePage = () => {
                     </Grid>
                     <Grid item xs={12} md={3} lg={3}>
                         <StyledPaper>
-                            {/* <img src={Assignment} alt="Assignments" /> */}
+                        
                             <Title>
                                 Total Assignments
                             </Title>
